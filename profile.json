@@ -1,0 +1,98 @@
+{
+    "name": "Sanchit Singh Sandy",
+    "title": "Junior System Administrator | AWS & Cloud Operations",
+    "contact": {
+      "phone": "+1-647-865-9590",
+      "email": "sanchitsinghsandy@gmail.com",
+      "linkedin": "https://linkedin.com/in/sanchitsandy",
+      "github": "https://github.com/sanchit1498",
+      "location": "Toronto, ON"
+    },
+    "certifications": [
+      "AWS Certified Cloud Practitioner (CLF-C02, Active Feb 2024 - Feb 2027)",
+      "AWS Certified Solutions Architect - Associate (In Preparation)"
+    ],
+    "education": [
+      {
+        "degree": "Graduate Certificate, Mobile Application Development",
+        "institution": "Georgian College, Barrie, ON",
+        "year": "2022"
+      },
+      {
+        "degree": "B.E. in Computer Science & Engineering",
+        "institution": "University of Jammu, India",
+        "year": "2015 - 2019"
+      }
+    ],
+    "technical_skills": {
+      "cloud_aws": [
+        "VPC", "Public/Private Subnets", "Security Groups", "EC2", "RDS (MySQL)", 
+        "S3", "IAM", "Route Tables", "CloudWatch", "GitHub OIDC Federation"
+      ],
+      "systems_and_web": [
+        "Linux (Ubuntu)", "Nginx (Reverse Proxy)", "Python (Flask)", "REST APIs", 
+        "Windows 10/11", "Bash scripting", "Deep Freeze imaging", "Docker basics"
+      ],
+      "networking_and_security": [
+        "TCP/IP", "DNS", "DHCP", "SSH", "Subnet isolation", "LAN routing", 
+        "Managed switches", "Patch panels", "Wi-Fi APs", "IaC security scanning (Tfsec)"
+      ],
+      "automation_and_iac": [
+        "Terraform (modular IaC)", "GitHub Actions CI/CD", "Root-cause analysis", 
+        "Runbook authoring", "Ticket/SLA resolution"
+      ]
+    },
+    "featured_projects": [
+      {
+        "name": "3-Tier AWS Web Architecture as Code",
+        "stack": ["Terraform", "AWS (VPC, EC2, RDS)", "Nginx", "Python/Flask"],
+        "highlights": [
+          "Architected and deployed a multi-tier web application stack on AWS utilizing an Nginx reverse proxy web tier, Python/Flask app tier, and isolated private RDS MySQL instance.",
+          "Implemented granular security group rules, network routing tables, and private subnet isolation, validating boundaries with automated connectivity scripts.",
+          "Codified entire infrastructure into 4 reusable, modular Terraform components (VPC, security, compute, database) with remote state locking in S3."
+        ]
+      },
+      {
+        "name": "Automated CI/CD Web Deployment Pipeline",
+        "stack": ["GitHub Actions", "Terraform", "AWS (EC2, S3, IAM)", "Tfsec", "Python"],
+        "highlights": [
+          "Engineered production-style GitHub Actions CI/CD pipeline gating code pushes on syntax linting, pytest validation, and Tfsec security scanning prior to AWS staging.",
+          "Eliminated long-lived static AWS credentials by federating GitHub to an IAM role using OIDC authentication, enforcing least-privilege standards.",
+          "Automated EC2 deployment with post-deploy smoke tests and automated teardown; authored runbooks documenting troubleshooting steps."
+        ]
+      },
+      {
+        "name": "AWS Console Web Infrastructure Build & Recovery",
+        "stack": ["AWS Console", "VPC", "EC2", "RDS", "Linux Troubleshooting"],
+        "highlights": [
+          "Configured custom AWS network topology (VPC, subnets, route tables, internet gateways) from the console.",
+          "Independently diagnosed and resolved misconfigured Nginx configs and database connection strings."
+        ]
+      }
+    ],
+    "work_experience": [
+      {
+        "role": "Junior Systems & IT Support Administrator",
+        "company": "NITS Polytechnic",
+        "period": "August 2019 - February 2021",
+        "highlights": [
+          "Provisioned, deployed, and maintained 60+ desktop workstations and multi-user computer labs, cutting system setup and software deployment time by 40% via automated OS imaging.",
+          "Conducted component-level troubleshooting, repair, and hardware upgrades (RAM, SSDs, power supplies) to preserve high lab availability.",
+          "Terminated cabling, managed switches, maintained patch panels, and monitored Wi-Fi APs across departments; resolved DNS, DHCP, and IP conflicts.",
+          "Configured academic software stacks (Python, Java, C/C++, SQL databases) and state examination web portals.",
+          "Implemented Deep Freeze baseline restoration and anti-malware safeguards; authored SOPs for recurring lab setups."
+        ]
+      },
+      {
+        "role": "Customer Service Specialist - Flooring & Décor, Paint, Service Desk",
+        "company": "The Home Depot",
+        "period": "April 2022 - Present",
+        "highlights": [
+          "Operate multiple proprietary enterprise systems daily (POS, inventory databases, spectrophotometer platforms, custom order software).",
+          "Investigate order anomalies, delivery delays, vendor discrepancies, identifying root causes and coordinating fixes with logistics teams.",
+          "Translate detailed technical product specifications and requirements into straightforward language for contractors and clients.",
+          "Train and onboard new team members on store POS navigation, customer escalation pathways, and inventory reconciliation workflows."
+        ]
+      }
+    ]
+  }
